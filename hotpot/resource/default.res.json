@@ -1,7 +1,7 @@
 {
 	"groups":[
 		{
-			"keys":"button_json,foods_json,npc_json,npcMove_1_json,npcMove_1_png",
+			"keys":"button_json,foods_json,npc_json",
 			"name":"preload"
 		},
 		{
@@ -13,7 +13,7 @@
 			"name":"role"
 		},
 		{
-			"keys":"main_bg_png,main_claw_left_png,main_claw_line_png,main_think_bg_png,main_time_bg_png,number_fnt",
+			"keys":"number_fnt,pot_btn_back_png,pot_claw_center_png,pot_claw_png,pot_desk_png,pot_line_png,pot_parse_png,pot_pot_bg_png,pot_pot_png,pot_score_bg_png,pot_target_bg_png,pot_up_bg_png",
 			"name":"main"
 		}
 	],
@@ -69,31 +69,6 @@
 			"url":"assets/role/role_4.png"
 		},
 		{
-			"name":"main_bg_png",
-			"type":"image",
-			"url":"assets/main/main_bg.png"
-		},
-		{
-			"name":"main_claw_left_png",
-			"type":"image",
-			"url":"assets/main/main_claw_left.png"
-		},
-		{
-			"name":"main_claw_line_png",
-			"type":"image",
-			"url":"assets/main/main_claw_line.png"
-		},
-		{
-			"name":"main_think_bg_png",
-			"type":"image",
-			"url":"assets/main/main_think_bg.png"
-		},
-		{
-			"name":"main_time_bg_png",
-			"type":"image",
-			"url":"assets/main/main_time_bg.png"
-		},
-		{
 			"name":"number_fnt",
 			"type":"font",
 			"url":"assets/main/number.fnt"
@@ -130,14 +105,59 @@
 			"url":"assets/foods/food_9.png"
 		},
 		{
-			"name":"npcMove_1_json",
-			"type":"json",
-			"url":"assets/movieClip/npcMove_1.json"
+			"name":"pot_btn_back_png",
+			"type":"image",
+			"url":"assets/main/pot_btn_back.png"
 		},
 		{
-			"name":"npcMove_1_png",
+			"name":"pot_claw_center_png",
 			"type":"image",
-			"url":"assets/movieClip/npcMove_1.png"
+			"url":"assets/main/pot_claw_center.png"
+		},
+		{
+			"name":"pot_claw_png",
+			"type":"image",
+			"url":"assets/main/pot_claw.png"
+		},
+		{
+			"name":"pot_desk_png",
+			"type":"image",
+			"url":"assets/main/pot_desk.png"
+		},
+		{
+			"name":"pot_line_png",
+			"type":"image",
+			"url":"assets/main/pot_line.png"
+		},
+		{
+			"name":"pot_parse_png",
+			"type":"image",
+			"url":"assets/main/pot_parse.png"
+		},
+		{
+			"name":"pot_pot_bg_png",
+			"type":"image",
+			"url":"assets/main/pot_pot_bg.png"
+		},
+		{
+			"name":"pot_pot_png",
+			"type":"image",
+			"url":"assets/main/pot_pot.png"
+		},
+		{
+			"name":"pot_score_bg_png",
+			"type":"image",
+			"url":"assets/main/pot_score_bg.png"
+		},
+		{
+			"name":"pot_target_bg_png",
+			"type":"image",
+			"url":"assets/main/pot_target_bg.png"
+		},
+		{
+			"name":"pot_up_bg_png",
+			"type":"image",
+			"url":"assets/main/pot_up_bg.png"
 		}
 	]
 }

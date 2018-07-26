@@ -12,10 +12,10 @@
 	],
 	"game": [
 		"bin-debug/core/base/BaseClass.js",
-		"bin-debug/core/base/BaseUILayer.js",
-		"bin-debug/core/base/BaseView.js",
 		"bin-debug/core/base/BaseController.js",
 		"bin-debug/core/base/BaseScene.js",
+		"bin-debug/core/base/BaseUILayer.js",
+		"bin-debug/core/base/BaseView.js",
 		"bin-debug/core/util/ObjectPool.js",
 		"bin-debug/Main.js",
 		"bin-debug/core/dragonBones/Dragon.js",

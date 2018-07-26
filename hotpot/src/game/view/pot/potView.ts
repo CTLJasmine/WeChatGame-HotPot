@@ -41,7 +41,7 @@ class potView extends BaseView {
      * 开始播放npc的动画
      */
     private startNpcAnim():void {
-        if (!this.mTestMovieClip) this.mTestMovieClip = MovieClipComponent.produce("npcMove_1", "npcMove_1");
+        if (!this.mTestMovieClip) this.mTestMovieClip = MovieClipComponent.produce("npc_1_move", "cat");
         this.addChild(this.mTestMovieClip);
         this.mTestMovieClip.x = 300;
         this.mTestMovieClip.y = 300;

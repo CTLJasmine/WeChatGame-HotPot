@@ -42,7 +42,7 @@ var potView = (function (_super) {
      */
     potView.prototype.startNpcAnim = function () {
         if (!this.mTestMovieClip)
-            this.mTestMovieClip = MovieClipComponent.produce("npcMove_1", "npcMove_1");
+            this.mTestMovieClip = MovieClipComponent.produce("cat", "cat");
         this.addChild(this.mTestMovieClip);
         this.mTestMovieClip.x = 300;
         this.mTestMovieClip.y = 300;
