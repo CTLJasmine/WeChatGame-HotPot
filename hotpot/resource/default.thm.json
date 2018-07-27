@@ -15,6 +15,7 @@
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
+		"resource/skins/MainViewSkin.exml",
 		"resource/eui_skins/ButtonSkin.exml",
 		"resource/eui_skins/CheckBoxSkin.exml",
 		"resource/eui_skins/HScrollBarSkin.exml",
@@ -28,7 +29,6 @@
 		"resource/eui_skins/ToggleSwitchSkin.exml",
 		"resource/eui_skins/VScrollBarSkin.exml",
 		"resource/eui_skins/VSliderSkin.exml",
-		"resource/skins/MainViewSkin.exml",
 		"resource/skins/pot/FoodComponentSkin.exml",
 		"resource/skins/pot/PotViewSkin.exml"
 	],
