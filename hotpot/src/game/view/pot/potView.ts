@@ -19,7 +19,7 @@ class potView extends BaseView {
     public constructor(parent: egret.DisplayObjectContainer) {
         super(parent);
         this.skinName = "PotViewSkin";
-        
+
     }
 
     /** call by man */
@@ -40,8 +40,8 @@ class potView extends BaseView {
     /**
      * 开始播放npc的动画
      */
-    private startNpcAnim():void {
-        if (!this.mTestMovieClip) this.mTestMovieClip = MovieClipComponent.produce("npc_1_move", "cat");
+    private startNpcAnim(): void {
+        if (!this.mTestMovieClip) this.mTestMovieClip = MovieClipComponent.produce("npc_1_drop", "npc_1_drop");
         this.addChild(this.mTestMovieClip);
         this.mTestMovieClip.x = 300;
         this.mTestMovieClip.y = 300;
