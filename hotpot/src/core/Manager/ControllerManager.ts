@@ -4,7 +4,7 @@ class ControllerManager extends BaseClass {
     }
 
     public static get Main(): MainController {
-        return MainController.getInstance();
+        return MainController.getInstance(); 
     }
 
     public static get pot(): PotController {
